@@ -1,0 +1,39 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    font-size: 16px;
+    background-color: #f0f0f0;
+    color: #333333;
+    padding: 20px;
+    text-align: center;
+}
+h1 {
+    font-size: 36px;
+    color: #007bff; /* Primary color for headings */
+    margin-bottom: 20px;
+}
+select {
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #ffffff;
+    width: 250px;
+    max-width: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+.coordinates {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: left; /* Align text left for better readability */
+}
+@media (max-width: 768px) {
+    select {
+        width: 100%;
+    }
+}
